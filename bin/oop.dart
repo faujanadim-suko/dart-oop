@@ -5,8 +5,8 @@
 void main() {
   //ini objek
   final mobil = MobilKu(); //membuat objek dari class MobilKu
-  var mobil1 = MobilKu();
-  MobilKu mobil2 = MobilKu();
+  var mobil1 = MobilKu(); //membuat objek dari class MobilKu
+  MobilKu mobil2 = MobilKu(); //membuat objek dari class MobilKu
 
   //memanggil objek
   print(mobil);

@@ -3,7 +3,7 @@ void main(List<String> orgs) {
   Car carr = Car("hoda", "kelabu");
   print(carr.brand);
   print(carr.color);
-  //print(carr.road());
+  print(carr.road());
 }
 
 class Car {
@@ -11,10 +11,12 @@ class Car {
   final int wheels = 4;
   String? color; //nullable property
 
-  //formal parameter
-  Car(this.brand, this.color);
-  //menggunakan formal parameter untuk menginisialisasi properti class
-  //output sama yg beda hanya cara penulisan formal parameter lebih ringkas dan efisien
+  //constructor keyword adalah method khusus yang digunakan untuk menginisialisasi objek dari sebuah class.
+  Car(String brand, String color) {
+    //menggunakan keyword this untuk membedakan antara properti class dan parameter constructor
+    this.brand = brand;
+    this.color = color;
+  }
 
   String road() {
     // print("mobil berjaln menggunakan roda $wheels");

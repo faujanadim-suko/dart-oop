@@ -1,9 +1,9 @@
 //properties adalah variabel yang dimiliki oleh sebuah objek. Properti ini menyimpan data atau informasi tentang objek tersebut. Misalnya, sebuah objek mobil dapat memiliki properti seperti warna, merek, dan jumlah roda.
-void main() {
+void main(List<String> args) {
   Car car = Car(); //membuat objek dari class Car
   //manipulasi properti
   car.brand = "Toyota"; //mengubah properti brand dari objek car
-  car.color = "ijo"; //mengubah properti color dari objek car
+  car.color = "ijo";
   // car.wheels; //mengakses properti wheels dari objek car
 
   //menampilkan properti
