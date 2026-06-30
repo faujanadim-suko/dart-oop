@@ -7,6 +7,7 @@ void main() {
   final mobil = MobilKu(); //membuat objek dari class MobilKu
   var mobil1 = MobilKu();
   MobilKu mobil2 = MobilKu();
+
   //memanggil objek
   print(mobil);
   print(mobil1);

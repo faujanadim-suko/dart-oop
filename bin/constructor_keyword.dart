@@ -16,8 +16,8 @@ class Car {
 
   //constructor keyword adalah method khusus yang digunakan untuk menginisialisasi objek dari sebuah class.
   Car(String brand, String color) {
-    this.brand =
-        brand; //menggunakan keyword this untuk membedakan antara properti class dan parameter constructor
+    //menggunakan keyword this untuk membedakan antara properti class dan parameter constructor
+    this.brand = brand;
     this.color = color;
   }
 

@@ -8,10 +8,12 @@ void main(List<String> args) {
 }
 
 class Car {
+  //properti
   String brand = "unknown";
   final int wheels = 4;
   String? color; //nullable property
 
+  //method
   void road() {
     print("mobil berjaln menggunakan roda $wheels");
   }
